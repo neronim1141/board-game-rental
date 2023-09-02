@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "wallabyjs.console-ninja",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode",
+    "yoavbls.pretty-ts-errors",
+    "prisma.prisma",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
