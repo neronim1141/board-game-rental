@@ -1,5 +1,5 @@
-import { AuthProvider } from "@/lib/auth/provider";
-import { getUser } from "@/lib/auth/utils";
+import { AuthProvider } from "@/lib/auth/auth.provider";
+import { getUser } from "@/lib/auth/auth.utils";
 
 export default async function Layout({
   children,
