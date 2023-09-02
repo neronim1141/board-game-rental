@@ -1,5 +1,5 @@
 "use client";
-import { useUser } from "@/components/auth/AuthProvider";
+import { useUser } from "@/lib/auth/provider";
 import { LogoutButton } from "@/components/auth/authButtons";
 
 export default async function Profile() {

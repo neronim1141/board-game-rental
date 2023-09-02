@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "test": "vitest",
     "start": "next start",
     "lint": "next lint",
     "db:run": "docker-compose up",
@@ -41,7 +42,11 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "@types/bcrypt": "^5.0.0",
-    "prisma": "^5.2.0"
+    "@vitejs/plugin-react": "^4.0.4",
+    "jsdom": "^22.1.0",
+    "prisma": "^5.2.0",
+    "vitest": "^0.34.3"
   }
 }
