@@ -17,9 +17,9 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="dark">
       <body>
-        <Providers user={await getUser()}>
+        <Providers>
           <ThemeChanger />
-          <main className="max-w-5xl m-auto">{children}</main>
+          {children}
         </Providers>
       </body>
     </html>
