@@ -1,4 +1,3 @@
-import convert from "xml-js";
 import { z } from "zod";
 import { parseDataToJSON, transformBggSchemaToArray } from "./utils";
 import {

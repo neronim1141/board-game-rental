@@ -1,21 +1,16 @@
-import { GoBackButton } from "@/components/GoBackButton";
-import { LogoutButton } from "@/components/auth/authButtons";
-import { authOptions } from "@/lib/auth";
-import { getServerSession } from "next-auth/next";
+import { buttonVariants } from "@/components/ui/button";
+import { getUserAuth } from "@/lib/auth/auth.utils";
+import Link from "next/link";
 
 export default async function Profile() {
-  const session = await getServerSession(authOptions);
+  const { session } = await getUserAuth();
 
   if (!session?.user) {
     <h1>
-      You need to log In first to acces this site
-      <LogoutButton />
+      You need to log In first to access this site
+      <Link className={buttonVariants()} href="\">
+        Home
+      </Link>
     </h1>;
   }
-  return (
-    <h1>
-      Hi {session?.user?.name}
-      <GoBackButton />
-    </h1>
-  );
 }

@@ -1,15 +1,15 @@
 import { redirect } from "next/navigation";
-import { authOptions } from ".";
 import { getServerSession } from "next-auth/next";
+import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 
-export const getUser = async () => {
+export const getUserAuth = async () => {
   const session = await getServerSession(authOptions);
 
-  return session?.user;
+  return { session };
 };
 
-export const authorizedGuard = async () => {
-  const user = await getUser();
+export const checkAuth = async () => {
+  const user = await getUserAuth();
   if (!user) {
     redirect("/unauthorized");
   }
