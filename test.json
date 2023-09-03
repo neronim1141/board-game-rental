@@ -1,0 +1,344 @@
+{
+  "boardgames": {
+    "_attributes": {
+      "termsofuse": "https://boardgamegeek.com/xmlapi/termsofuse"
+    },
+    "boardgame": [
+      {
+        "_attributes": { "objectid": "35424" },
+        "yearpublished": { "_text": "2008" },
+        "minplayers": { "_text": "0" },
+        "maxplayers": { "_text": "0" },
+        "playingtime": { "_text": "0" },
+        "minplaytime": { "_text": "0" },
+        "maxplaytime": { "_text": "0" },
+        "age": { "_text": "0" },
+        "name": {
+          "_attributes": { "primary": "true", "sortindex": "1" },
+          "_text": "Hexpack"
+        },
+        "description": {
+          "_text": "Hexpack is an extrapolation of the piecepack game system, and is basically an expansion to Piecepack, adding hexagonal tiles, as the name suggests. The hexpack is a public domain game system designed to encourage creative, open game development and design.<br/><br/>Additionally, by combining the concept of the hexpack with the concept of the SixPack set of the three red and three black piecepack suits, you end up with six suits, six sides per tile, six ranks of tile and coin, and of course, six sides on each die - as well as a six-sided SixPack suit selection die, if you like.<br/><br/>"
+        },
+        "thumbnail": {
+          "_text": "https://cf.geekdo-images.com/NaVK216SnjDz3VLr5kKOAg__thumb/img/Dv33KDquSaImzK45ImeqIJB-bfc=/fit-in/200x150/filters:strip_icc()/pic350302.jpg"
+        },
+        "image": {
+          "_text": "https://cf.geekdo-images.com/NaVK216SnjDz3VLr5kKOAg__original/img/_fR_-LU6T4zfa901SvBAx3V8O3k=/0x0/filters:format(jpeg)/pic350302.jpg"
+        },
+        "boardgamepublisher": [
+          { "_attributes": { "objectid": "171" }, "_text": "(Public Domain)" },
+          { "_attributes": { "objectid": "6060" }, "_text": "Blue Panther" }
+        ],
+        "boardgamefamily": {
+          "_attributes": { "objectid": "136" },
+          "_text": "Components: Piecepack"
+        },
+        "boardgamecategory": [
+          {
+            "_attributes": { "objectid": "1042" },
+            "_text": "Expansion for Base-game"
+          },
+          { "_attributes": { "objectid": "1119" }, "_text": "Game System" },
+          { "_attributes": { "objectid": "1120" }, "_text": "Print & Play" }
+        ],
+        "boardgamedesigner": [
+          { "_attributes": { "objectid": "10384" }, "_text": "Nathan Morse" },
+          { "_attributes": { "objectid": "10385" }, "_text": "Daniel Wilcox" }
+        ],
+        "boardgameartist": [
+          { "_attributes": { "objectid": "10384" }, "_text": "Nathan Morse" },
+          { "_attributes": { "objectid": "10385" }, "_text": "Daniel Wilcox" }
+        ],
+        "boardgameexpansion": {
+          "_attributes": { "objectid": "2860", "inbound": "true" },
+          "_text": "Piecepack"
+        },
+        "poll": [
+          {
+            "_attributes": {
+              "name": "suggested_numplayers",
+              "title": "User Suggested Number of Players",
+              "totalvotes": "0"
+            },
+            "results": {
+              "_attributes": { "numplayers": "0+" },
+              "result": [
+                { "_attributes": { "value": "Best", "numvotes": "0" } },
+                { "_attributes": { "value": "Recommended", "numvotes": "0" } },
+                {
+                  "_attributes": { "value": "Not Recommended", "numvotes": "0" }
+                }
+              ]
+            }
+          },
+          {
+            "_attributes": {
+              "name": "language_dependence",
+              "title": "Language Dependence",
+              "totalvotes": "0"
+            },
+            "results": {
+              "result": [
+                {
+                  "_attributes": {
+                    "level": "1",
+                    "value": "No necessary in-game text",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "2",
+                    "value": "Some necessary text - easily memorized or small crib sheet",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "3",
+                    "value": "Moderate in-game text - needs crib sheet or paste ups",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "4",
+                    "value": "Extensive use of text - massive conversion needed to be playable",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "5",
+                    "value": "Unplayable in another language",
+                    "numvotes": "0"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "_attributes": {
+              "name": "suggested_playerage",
+              "title": "User Suggested Player Age",
+              "totalvotes": "0"
+            },
+            "results": {
+              "result": [
+                { "_attributes": { "value": "2", "numvotes": "0" } },
+                { "_attributes": { "value": "3", "numvotes": "0" } },
+                { "_attributes": { "value": "4", "numvotes": "0" } },
+                { "_attributes": { "value": "5", "numvotes": "0" } },
+                { "_attributes": { "value": "6", "numvotes": "0" } },
+                { "_attributes": { "value": "8", "numvotes": "0" } },
+                { "_attributes": { "value": "10", "numvotes": "0" } },
+                { "_attributes": { "value": "12", "numvotes": "0" } },
+                { "_attributes": { "value": "14", "numvotes": "0" } },
+                { "_attributes": { "value": "16", "numvotes": "0" } },
+                { "_attributes": { "value": "18", "numvotes": "0" } },
+                { "_attributes": { "value": "21 and up", "numvotes": "0" } }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "_attributes": { "objectid": "2860" },
+        "yearpublished": { "_text": "2001" },
+        "minplayers": { "_text": "0" },
+        "maxplayers": { "_text": "0" },
+        "playingtime": { "_text": "10" },
+        "minplaytime": { "_text": "10" },
+        "maxplaytime": { "_text": "10" },
+        "age": { "_text": "5" },
+        "name": [
+          {
+            "_attributes": { "sortindex": "5" },
+            "_text": "The Infinite Board Game"
+          },
+          {
+            "_attributes": { "primary": "true", "sortindex": "1" },
+            "_text": "Piecepack"
+          }
+        ],
+        "description": {
+          "_text": "Piecepack is to board games what a Standard Deck of Playing Cards is to card games. It is a set of components that can be used to play many games. Included in each set are tiles to build the board, allowing for boards of various shapes and sizes, coins in varying suits and values, dice in suits and values, and player pawns.<br/><br/>See Piecepack Game System for a detailed look at the system and its games.<br/><br/>Thus far, over 100 games have been developed for piecepack sets, and since it is an open-source type system, new games appear frequently.<br/><br/>The other interesting thing is that piecepack sets are public domain. Anyone can make one, even for profit, without paying any sort of royalties of any kind. It is generally requested that they conform to some standard dimensions, but otherwise, they are free to make and sell.<br/><br/>The suggested Piecepack dimensions make them compatible with Looney Pyramids.<br/><br/>"
+        },
+        "thumbnail": {
+          "_text": "https://cf.geekdo-images.com/LPdmwH_PBW56Y2hy-_BsgA__thumb/img/EAAwf2N4IYHnl2e-QgzzM6ij9iM=/fit-in/200x150/filters:strip_icc()/pic119215.jpg"
+        },
+        "image": {
+          "_text": "https://cf.geekdo-images.com/LPdmwH_PBW56Y2hy-_BsgA__original/img/eDZPfN3sj7jYINhyXODpKoDd3Nk=/0x0/filters:format(jpeg)/pic119215.jpg"
+        },
+        "boardgamesubdomain": {
+          "_attributes": { "objectid": "4666" },
+          "_text": "Abstract Games"
+        },
+        "boardgamepublisher": [
+          { "_attributes": { "objectid": "6060" }, "_text": "Blue Panther" },
+          { "_attributes": { "objectid": "1979" }, "_text": "IcePack Games" },
+          { "_attributes": { "objectid": "620" }, "_text": "Mesomorph Games" },
+          { "_attributes": { "objectid": "4751" }, "_text": "Piecepack Games" },
+          { "_attributes": { "objectid": "7386" }, "_text": "RamalamaS" },
+          {
+            "_attributes": { "objectid": "1722" },
+            "_text": "Workman Publishing"
+          }
+        ],
+        "boardgameversion": [
+          {
+            "_attributes": { "objectid": "169600" },
+            "_text": "Blue Panther Set 1 edition"
+          },
+          {
+            "_attributes": { "objectid": "169602" },
+            "_text": "Blue Panther Set 2 edition"
+          },
+          {
+            "_attributes": { "objectid": "169603" },
+            "_text": "Blue Panther Set 3 edition"
+          },
+          {
+            "_attributes": { "objectid": "468892" },
+            "_text": "Mesomorph second edition"
+          },
+          {
+            "_attributes": { "objectid": "290698" },
+            "_text": "Workman edition"
+          }
+        ],
+        "boardgamecategory": [
+          { "_attributes": { "objectid": "1117" }, "_text": "Book" },
+          { "_attributes": { "objectid": "1119" }, "_text": "Game System" }
+        ],
+        "boardgameexpansion": [
+          { "_attributes": { "objectid": "330178" }, "_text": "Burbuja" },
+          { "_attributes": { "objectid": "35424" }, "_text": "Hexpack" },
+          {
+            "_attributes": { "objectid": "24319" },
+            "_text": "Piece Packing Pirates"
+          },
+          {
+            "_attributes": { "objectid": "307193" },
+            "_text": "Piecepack Matchsticks"
+          }
+        ],
+        "boardgamefamily": [
+          {
+            "_attributes": { "objectid": "136" },
+            "_text": "Components: Piecepack"
+          },
+          {
+            "_attributes": { "objectid": "7395" },
+            "_text": "Containers: Video Tape Boxes"
+          }
+        ],
+        "boardgameartist": {
+          "_attributes": { "objectid": "44676" },
+          "_text": "Melanie Fabian"
+        },
+        "boardgamedesigner": {
+          "_attributes": { "objectid": "111" },
+          "_text": "James Kyle"
+        },
+        "boardgameaccessory": {
+          "_attributes": { "objectid": "255345" },
+          "_text": "Piecepack: Mixed Suits"
+        },
+        "videogamebg": {
+          "_attributes": { "objectid": "172077" },
+          "_text": "Tabletop Simulator"
+        },
+        "poll": [
+          {
+            "_attributes": {
+              "name": "suggested_numplayers",
+              "title": "User Suggested Number of Players",
+              "totalvotes": "3"
+            },
+            "results": {
+              "_attributes": { "numplayers": "0+" },
+              "result": [
+                { "_attributes": { "value": "Best", "numvotes": "0" } },
+                { "_attributes": { "value": "Recommended", "numvotes": "2" } },
+                {
+                  "_attributes": { "value": "Not Recommended", "numvotes": "0" }
+                }
+              ]
+            }
+          },
+          {
+            "_attributes": {
+              "name": "language_dependence",
+              "title": "Language Dependence",
+              "totalvotes": "0"
+            },
+            "results": {
+              "result": [
+                {
+                  "_attributes": {
+                    "level": "6",
+                    "value": "No necessary in-game text",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "7",
+                    "value": "Some necessary text - easily memorized or small crib sheet",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "8",
+                    "value": "Moderate in-game text - needs crib sheet or paste ups",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "9",
+                    "value": "Extensive use of text - massive conversion needed to be playable",
+                    "numvotes": "0"
+                  }
+                },
+                {
+                  "_attributes": {
+                    "level": "10",
+                    "value": "Unplayable in another language",
+                    "numvotes": "0"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "_attributes": {
+              "name": "suggested_playerage",
+              "title": "User Suggested Player Age",
+              "totalvotes": "0"
+            },
+            "results": {
+              "result": [
+                { "_attributes": { "value": "2", "numvotes": "0" } },
+                { "_attributes": { "value": "3", "numvotes": "0" } },
+                { "_attributes": { "value": "4", "numvotes": "0" } },
+                { "_attributes": { "value": "5", "numvotes": "0" } },
+                { "_attributes": { "value": "6", "numvotes": "0" } },
+                { "_attributes": { "value": "8", "numvotes": "0" } },
+                { "_attributes": { "value": "10", "numvotes": "0" } },
+                { "_attributes": { "value": "12", "numvotes": "0" } },
+                { "_attributes": { "value": "14", "numvotes": "0" } },
+                { "_attributes": { "value": "16", "numvotes": "0" } },
+                { "_attributes": { "value": "18", "numvotes": "0" } },
+                { "_attributes": { "value": "21 and up", "numvotes": "0" } }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

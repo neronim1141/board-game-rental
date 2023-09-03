@@ -4,8 +4,13 @@ import { getServerSession } from "next-auth/next";
 
 export const getUser = async () => {
   const session = await getServerSession(authOptions);
-  if (!session?.user) {
-    return redirect("/unauthorized");
+
+  return session?.user;
+};
+
+export const authorizedGuard = async () => {
+  const user = await getUser();
+  if (!user) {
+    redirect("/unauthorized");
   }
-  return session.user;
 };

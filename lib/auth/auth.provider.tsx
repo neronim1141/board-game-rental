@@ -7,7 +7,7 @@ const AuthContext = createContext<Required<Session>["user"] | undefined>(
   undefined
 );
 interface AuthProviderProps extends PropsWithChildren {
-  user: Required<Session>["user"];
+  user?: Required<Session>["user"];
 }
 
 export const AuthProvider = ({ user, children }: AuthProviderProps) => {

@@ -8,7 +8,6 @@ import {
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Rental Board</h1>
       <LoginButton />
       <RegisterButton />
       <LogoutButton />
