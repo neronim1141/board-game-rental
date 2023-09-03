@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Providers } from "./providers";
-import { ThemeChanger } from "@/components/ThemeChanger";
-import { getUser } from "@/lib/auth/auth.utils";
+import { ThemeChanger } from "@/components/elements/ThemeChanger";
+import SignIn from "@/components/auth/SignIn";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,8 +17,8 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="dark">
       <body>
-        <Providers user={await getUser()}>
-          <ThemeChanger />
+        <Providers>
+          <ThemeChanger /> <SignIn />
           <main className="max-w-5xl m-auto">{children}</main>
         </Providers>
       </body>

@@ -1,17 +1,3 @@
-import {
-  LoginButton,
-  LogoutButton,
-  ProfileButton,
-  RegisterButton,
-} from "@/components/auth/authButtons";
-
 export default function Home() {
-  return (
-    <div>
-      <LoginButton />
-      <RegisterButton />
-      <LogoutButton />
-      <ProfileButton />
-    </div>
-  );
+  return <div className="overflow-y-auto">Home</div>;
 }

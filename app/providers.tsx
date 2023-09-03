@@ -1,18 +1,15 @@
 "use client";
 import { AuthProvider } from "@/lib/auth/auth.provider";
-import { Session } from "next-auth";
+import { SessionProvider } from "next-auth/react";
 
 import { ThemeProvider } from "next-themes";
 import React from "react";
 import { PropsWithChildren } from "react";
 
-interface ProvidersProps extends PropsWithChildren {
-  user?: Required<Session>["user"];
-}
-export function Providers({ children, user }: ProvidersProps) {
+export function Providers({ children }: PropsWithChildren) {
   return (
     <ThemeProvider attribute="class" defaultTheme="dark">
-      <AuthProvider user={user}>{children}</AuthProvider>
+      <SessionProvider>{children}</SessionProvider>
     </ThemeProvider>
   );
 }
