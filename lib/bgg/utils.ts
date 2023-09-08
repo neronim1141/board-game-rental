@@ -1,4 +1,4 @@
-import { Schema, z, ZodEffects, ZodObject, ZodRawShape } from "zod";
+import { z, ZodObject, ZodRawShape } from "zod";
 import convert from "xml-js";
 
 export const transformBggSchemaToArray = <T extends ZodRawShape>(
