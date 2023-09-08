@@ -1,5 +1,4 @@
 "use client";
-import { AuthProvider } from "@/lib/auth/auth.provider";
 import { SessionProvider } from "next-auth/react";
 
 import { ThemeProvider } from "next-themes";
